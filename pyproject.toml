@@ -1,0 +1,22 @@
+[project]
+name = "gic-financial-chatbot"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "gradio>=5.49.1",
+    "streamlit>=1.50.0",
+    "qdrant-client",
+    "openai",
+    "pypdf",
+    "python-dotenv>=1.1.1",
+    "langextract[openai]",
+    "pdf2image",
+    "doclayout-yolo",
+    "opencv-python",
+    "torch",
+    "torchvision",
+    "ultralytics",
+    "pillow",
+]
